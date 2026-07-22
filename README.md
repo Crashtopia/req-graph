@@ -1,5 +1,5 @@
 # Introduction
-A node-red fork to create a browser based tool for creating multi-agent requirements engineering workflows. Experiment with predefined agents and output artifacts to create common requirements engineering artifacts. A this is part of a masters thesis
+This project is a fork of Node-RED, licensed under the Apache License 2.0. It has been modified as part of a master's thesis to support low-code multi-agent workflow orchestration for requirements engineering and design. Experiment with predefined agents, human-in-the-loop nodes or existing subflows to create common software engineering artifacts. 
 
 ## Copyright and License
 
