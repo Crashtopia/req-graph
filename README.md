@@ -30,3 +30,20 @@ Node-RED is a project of the [OpenJS Foundation](http://openjsf.org). Copyright 
 [link-flows]: https://flows.nodered.org/search?type=flow
 [link-collections]: https://flows.nodered.org/search?type=collection
 [link-nodered]: https://nodered.org/
+
+# Running the Application
+Build the application image from the repository root:
+
+```bash
+docker build -t req-graph .
+```
+
+Start the application and expose its web interface:
+```bash
+docker run --rm -p 1880:1880 req-graph
+```
+
+The application can then be accessed in a web browser at:
+
+http://localhost:1880
+
