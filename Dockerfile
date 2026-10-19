@@ -27,5 +27,4 @@ COPY --from=builder /app .
 
 EXPOSE 1880
 
-#CMD ["node", "packages/node_modules/node-red/red.js", "--settings", "packages/node_modules/node-red/settings.js"]
-CMD ["npm", "start"]
+CMD ["node", "packages/node_modules/node-red/red.js", "--settings", "packages/node_modules/node-red/settings.js"]
